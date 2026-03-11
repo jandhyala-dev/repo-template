@@ -9,8 +9,8 @@ traces and disprove-it pass.
 
 - **Implementation plans** must be committed to git. The plan baseline commit
   SHA MUST appear in every review request prompt.
-- **Review prompts and artifacts** (detailed review outputs, adversarial review
-  chains) go to the designated output folder — not committed to git.
+- **Review verdicts and traces** are conversation output — not written to files
+  unless explicitly requested.
 - **Review standards** live in `docs/review-standards/` — committed to git.
 
 ## What This Repo Is
